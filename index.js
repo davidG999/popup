@@ -53,7 +53,6 @@ const priceModal = $.modal({
 })
 
 document.addEventListener('click', event => {
-  event.preventDefault()
   const btnType = event.target.dataset.btn
   const id = +event.target.dataset.id
   const movie = movies.find(f => f.id === id)
