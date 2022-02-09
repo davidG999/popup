@@ -84,3 +84,23 @@
 .card-img-top {
   height: 500px;
 }
+
+@media (max-width: 991px) {
+  .col {
+    flex: 0 0 266px;
+  }
+
+  .card-img-top {
+    height: 350px;
+  }
+}
+
+@media (max-width: 767px) {
+  .col {
+    flex: 0 0 300px;
+  }
+
+  .card-img-top {
+    height: 320px;
+  }
+}
