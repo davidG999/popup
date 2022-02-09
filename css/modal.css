@@ -76,3 +76,11 @@
   padding      : 5px 10px;
   border-bottom: 1px solid #eee;
 }
+
+.col {
+  flex: 0 0 380px;
+}
+
+.card-img-top {
+  height: 500px;
+}

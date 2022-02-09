@@ -19,10 +19,10 @@ let movies = [
 const toHTML = movie => `
   <div class="col m-4">
     <div class="card">
-      <img class="card-img-top" style="height: 300px;" src="${movie.img}" alt="${movie.title}">
+      <img class="card-img-top" src="${movie.img}" alt="${movie.title}">
       <div class="card-body text-center">
         <h5 class="card-title">${movie.title}</h5>
-        <a href="#" class="btn btn-primary" data-btn="price" data-id="${movie.id}">Price</a>
+        <a href="#" class="btn btn-primary" data-btn="price" style="margin: 5px" data-id="${movie.id}">Price</a>
         <a href="#" class="btn btn-danger" data-btn="remove" data-id="${movie.id}">Remove</a>
       </div>
     </div>
