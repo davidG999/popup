@@ -1,4 +1,12 @@
-.dmodal {}
+body {
+  background: radial-gradient(#1B262C, #393E46);
+  color     : #ddd;
+}
+
+h1 {
+  margin-top : 10px;
+  font-weight: 700;
+}
 
 .dmodal.open .modal-overlay,
 .dmodal.open .modal-window {
@@ -47,7 +55,7 @@
 .modal-window {
   width           : 600px;
   border-radius   : 5px;
-  background-color: #fff;
+  background-color: #393E46;
   margin          : 0 auto;
   transform       : translateY(-200px);
   transition      : transform .2s ease-in;
@@ -57,7 +65,7 @@
   padding        : 5px 10px;
   display        : flex;
   justify-content: space-between;
-  border-bottom  : 1px solid #eee;
+  border-bottom  : 1px solid rgba(24, 29, 22, 0.7);
 }
 
 .modal-title {
@@ -73,8 +81,8 @@
 }
 
 .modal-footer {
-  padding      : 5px 10px;
-  border-bottom: 1px solid #eee;
+  padding   : 5px 10px;
+  border-top: 1px solid rgba(24, 29, 22, 0.7);
 }
 
 .col {
@@ -83,6 +91,15 @@
 
 .card-img-top {
   height: 500px;
+}
+
+.card-body {
+  background-color: #2a3239;
+}
+
+.card {
+  background-color: #000;
+  border          : 3px solid #111;
 }
 
 @media (max-width: 991px) {
