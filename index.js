@@ -22,8 +22,10 @@ const toHTML = movie => `
       <img class="card-img-top" src="${movie.img}" alt="${movie.title}">
       <div class="card-body text-center">
         <h5 class="card-title">${movie.title}</h5>
-        <a href="#" class="btn btn-primary" data-btn="price" style="margin: 5px" data-id="${movie.id}">Price</a>
-        <a href="#" class="btn btn-danger" data-btn="remove" data-id="${movie.id}">Remove</a>
+        <div>
+          <a href="#" class="btn btn-primary" data-btn="price" style="margin: 5px" data-id="${movie.id}">Price</a>
+          <a href="#" class="btn btn-danger" data-btn="remove" data-id="${movie.id}">Remove</a>
+        </div>
       </div>
     </div>
   </div>
